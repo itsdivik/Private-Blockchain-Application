@@ -12,8 +12,6 @@ Concepts like:
 Are some of the most important components in the Blockchain Framework that you will need to describe and also
 why not? Implement too.
 
-In this project you will have a boilerplate code with a REST Api already setup to expose some of the functionalities
-you will implement in your private blockchain.
 
 ## What problem will you solve implementing this private Blockchain application?
 

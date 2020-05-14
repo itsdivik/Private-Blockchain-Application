@@ -65,25 +65,6 @@ Libraries purpose:
 4. `crypto-js` This module contain some of the most important cryotographic methods and will help us to create the block hash.
 5. `hex2ascii` This library will help us to **decode** the data saved in the body of a Block.
 
-## Understanding the boilerplate code
-
-The Boilerplate code is a simple architecture for a Blockchain application, it includes a REST APIs application to expose the your Blockchain application methods to your client applications or users.
-
-1. `app.js` file. It contains the configuration and initialization of the REST Api, the team who provide this boilerplate code suggest do not change this code because it is already tested and works as expected.
-2. `BlockchainController.js` file. It contains the routes of the REST Api. Those are the methods that expose the urls you will need to call when make a request to the application.
-3. `src` folder. In here we are going to have the main two classes we needed to create our Blockchain application, we are going to create a `block.js` file and a `blockchain.js` file that will contain the `Block` and `BlockChain` classes.
-
-### Starting with the boilerplate code:
-
-First thing first, we are going to download or clone our boilerplate code.
-
-Then we need to install all the libraries and module dependencies, to do that: open a terminal and run the command `npm install`
-
-**( Remember to be able to work on this project you will need to have installed in your computer Node.js and npm )**
-
-At this point we are ready to run our project for first time, use the command: `node app.js`
-
-You can check in your terminal the the Express application is listening in the PORT 8000
 
 ## What do I need to implement to satisfy my employer requirements?
 
